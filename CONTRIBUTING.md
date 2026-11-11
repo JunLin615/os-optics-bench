@@ -1,6 +1,6 @@
 # Contributing
 
-Use [GitHub Issues](https://github.com/JunLin615/free-space-optical-experiment-benchmark/issues) for case proposals, physics corrections, ambiguities, scoring problems, and tooling changes. Open a focused pull request against `main` for implementation; do not push changes directly to `main`.
+Use [GitHub Issues](https://github.com/JunLin615/os-optics-bench/issues) for case proposals, physics corrections, ambiguities, scoring problems, and tooling changes. Open a focused pull request against `main` for implementation; do not push changes directly to `main`.
 
 For a benchmark case, describe the free-space experimental objective, assumptions, given quantities and units, requested observables, plausible valid alternatives, known failure modes, and an autonomous way to verify each scored claim. Cite sources or label synthetic scenarios accurately. Keep benchmark science independent of any agent framework, tool, vendor, or component SKU. Purely on-chip and fiber-only problems are outside the core scope. New cases start as drafts and need executable or calibrated autonomous scoring before entering a scored release. Do not copy third-party question text without permission.
 
