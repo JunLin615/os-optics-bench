@@ -1,4 +1,4 @@
-# Free-Space Optical Experiment Benchmark
+# OS Optics Bench
 
 An open benchmark under development for evaluating autonomous agents on **free-space optical experimental reasoning**: quantitative prediction, beam-path design, diagnosis, calibration, and defensible engineering trade-offs. The scientific questions are independent of OpenSci, any agent framework, vendor, and optical-design software. Four [versioned protocols](docs/protocols.md) compare closed-book, case-assisted, tool-assisted, and combined access to the *same* scientific tasks.
 
@@ -44,6 +44,6 @@ Run `python tools/qualify_release.py` to inspect each selected case's evidence a
 
 The long-term scoring design combines unit-aware calculations, independent optical physics, constraints that admit multiple valid designs, and calibrated semantic judges for bounded residual claims. Normal evaluation must run **without human expert grading**. Open-ended pilot cases are not promoted to a scored release until their autonomous oracles have been challenged with valid alternatives and plausible wrong answers. The optical example library is versioned separately from benchmark prompts and gold specifications.
 
-Use [Issues](https://github.com/JunLin615/free-space-optical-experiment-benchmark/issues) to propose or correct a case or discuss infrastructure. Contributions use focused pull requests to `main`; see [CONTRIBUTING.md](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md).
+Use [Issues](https://github.com/JunLin615/os-optics-bench/issues) to propose or correct a case or discuss infrastructure. Contributions use focused pull requests to `main`; see [CONTRIBUTING.md](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md).
 
 Source code, schemas, tests, and tooling are MIT licensed under [LICENSE](LICENSE). Benchmark content, the seed, generated question views, and research/design documents are CC BY 4.0 under [LICENSE-CONTENT](LICENSE-CONTENT). Cite the exact case and evaluator release used; [CITATION.cff](CITATION.cff) provides repository metadata.
